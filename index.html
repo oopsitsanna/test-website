@@ -1,0 +1,71 @@
+<!-- **************************************
+     Anna O.      w1627858      5.13.2018 
+     ************************************** -->
+<!-- I used inline style to set the text color of an <hr> tag --> 
+<!-- https://winscp.net/eng/docs/guide_website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tom Hat :: Main</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="styles.css" rel="stylesheet">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+<body>
+<header>
+<div class="row_main">
+<div class="main_left" style="background-color: #DCDCDC;">
+<img src="images/logo.png" height="140" width="140" alt="logo image" class="floatright">
+</div> <!-- closing column_main left_main -->
+<div class="main_right" style="background-color: #DCDCDC;">
+<div class="subscription">
+	<form method="get">
+	join the tom hat mailing list <input type="email" name="myEmail" id="myEmail" placeholder="enter your email address">
+	<!-- <input type="submit" name="submit" id="submit" value="Submit"> -->
+	<button type="submit">Submit</button>
+	</form>
+	<br>
+<nav>
+ <ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="media.html">Media</a></li>
+	<li><a href="tour.html">Tour</a></li>
+ </ul>
+</nav>
+</div> <!-- closing subscription -->
+</div> <!-- closing column right -->
+</div> <!-- closing row_main -->
+</header>
+<img src="images/band.jpg" height="970" width="1550" alt="tom hat band">
+<hr color="#cc0000"> <!-- red line -->
+<div class="row">
+	<div class="column left" style="background-color: #DCDCDC;">
+		<img src="images/logo.png" height="100" width="100" alt="logo image" class="floatright">
+	</div> <!-- closing column left -->
+	<div class="column right" style="background-color: #DCDCDC;">
+		<div id="soundloop">
+			<h2>Album: Soundloop</h2><br>
+		</div> <!-- closing soundloop -->
+	<audio controls="controls">
+	<source src="media/soundloop.mp3" type="audio/mpeg">
+	<source src="media/soundloop.ogg" type="audio/ogg">
+	<a href="media/soundloop.mp3">Download the Audio File</a> (MP3)
+	</audio>
+</div> <!-- closing column right -->
+</div> <!-- closing row -->
+<footer>
+	Created by Anna &#124; CISW3202nd8wkSp18<br>
+	<a href="mailto:anna@w1627858.com">anna@w1627858.com</a>
+	<h3>This page was last modified on:
+		<script>
+		document.write(document.lastModified);
+		</script>
+	</h3>
+	</footer>
+</body>
+</html>
